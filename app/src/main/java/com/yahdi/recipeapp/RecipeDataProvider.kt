@@ -1,7 +1,7 @@
 package com.yahdi.recipeapp
 
 object RecipeDataProvider {
-    private val recipeData = arrayListOf(
+    val recipeData = arrayListOf(
         RecipeData(
             "Ikan teri goreng tepung",
             "https://cdn-brilio-net.akamaized.net/webp/news/2022/05/27/230295/1755035-1000xauto-resep-masakan-rumahan-sederhana.jpg",
@@ -21,8 +21,4 @@ object RecipeDataProvider {
             "1. Panaskan sedikit minyak. Tumis bumbu-bumbu sampai harum.\n2. Rebus air kira-kira 500 ml atau secukupnya. Masukkan bumbu yang sudah ditumis, tempe dan semua bahan lainnya. Masak selama 30 menit. Koreksi rasa, dan sajikan.",
         )
     )
-
-    fun getData(): ArrayList<RecipeData> {
-        return recipeData
-    }
 }
